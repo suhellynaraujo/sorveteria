@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.navbar a{
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+    
+    
+}
+
+header{
+    background: url("https://img.elo7.com.br/product/original/32BA0CC/painel-adesivo-bolas-de-sorvete-decoracao-parede-sorveteria-falso-buraco.jpg") no-repeat;
+    height: 60vh;  
+    background-size: cover;
+    filter: brightness(90%);
+    padding: auto;
+    margin: auto;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+#calda{
+    height: 250px;
+    width: 450px
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    
+}
